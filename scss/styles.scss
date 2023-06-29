@@ -1,0 +1,209 @@
+// Variables
+$color-principal: #654e92;
+$color-secundario: #6c9bcf;
+$color-terciario: #fff;
+$color-cuaternario: #555;
+
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+  color: $color-terciario;
+  font-size: 3rem;
+}
+
+p {
+  color: $color-terciario;
+  margin: 1rem 0;
+}
+
+header {
+  background-color: $color-principal;
+  width: 100vw;
+
+  nav {
+    .nav-link {
+      color: $color-terciario;
+      &:hover,
+      &:focus {
+        color: $color-terciario;
+        border-bottom: 2px solid;
+      }
+    }
+
+    .navbar-nav .nav-link.active {
+      color: $color-terciario;
+      border-bottom: 2px solid;
+    }
+  }
+}
+
+section {
+  background-color: $color-secundario;
+  color: $color-terciario;
+  position: relative;
+  width: 100vw;
+  display: inline-block;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main-content {
+  margin: 3rem 0;
+}
+
+#main-image {
+  box-sizing: border-box;
+  margin: 3rem auto;
+  display: block;
+  width: 100%;
+  border: 10px solid $color-principal;
+  border-radius: 300px;
+  padding: 10px;
+
+  img {
+    border-radius: 300px;
+    width: 100%;
+  }
+
+  .profession {
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-style: italic;
+  }
+}
+
+.rrss-home {
+  list-style: none;
+  margin-top: 3rem;
+
+  li {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+
+  i.fa-brands {
+    color: $color-terciario;
+    font-size: 2.5rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.follow-me {
+  margin-top: 0;
+
+  span {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  background-color: $color-principal;
+  color: $color-terciario;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100vw;
+}
+
+/*Sobre mi*/
+
+* {
+  box-sizing: border-box;
+}
+
+.skill-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px 20px 10px 0;
+  color: $color-terciario;
+  background-color: $color-principal;
+  border-radius: 10px;
+}
+
+.expert {
+  width: 100%;
+}
+
+.pro {
+  width: 75%;
+}
+
+.medium {
+  width: 50%;
+}
+
+.basic {
+  width: 25%;
+}
+
+/* Servicios */
+.card {
+  background: $color-principal;
+  color: $color-terciario;
+}
+
+/* Proyectos */
+.projects {
+  article {
+    display: flex;
+    margin: 1rem 0;
+  }
+}
+
+.project-img__container {
+  width: 30vw;
+
+  img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 100%;
+  }
+}
+
+.project-content__container {
+  background-color: $color-terciario;
+  width: 70vw;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 3rem;
+}
+
+.project-content__container {
+  p,
+  h2 {
+    color: $color-cuaternario;
+  }
+}
+
+/* Contacto */
+.contact {
+  form {
+    width: 50%;
+    background: $color-principal;
+    padding: 3rem;
+    margin: 0 auto;
+    text-align: center;
+
+    input[type="text"],
+    textarea,
+    button {
+      width: 100%;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 15px;
+    }
+  }
+}

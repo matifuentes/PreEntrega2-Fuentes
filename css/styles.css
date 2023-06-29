@@ -1,0 +1,186 @@
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+p {
+  color: #fff;
+  margin: 1rem 0;
+}
+
+header {
+  background-color: #654e92;
+  width: 100vw;
+}
+header nav .nav-link {
+  color: #fff;
+}
+header nav .nav-link:hover, header nav .nav-link:focus {
+  color: #fff;
+  border-bottom: 2px solid;
+}
+header nav .navbar-nav .nav-link.active {
+  color: #fff;
+  border-bottom: 2px solid;
+}
+
+section {
+  background-color: #6c9bcf;
+  color: #fff;
+  position: relative;
+  width: 100vw;
+  display: inline-block;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main-content {
+  margin: 3rem 0;
+}
+
+#main-image {
+  box-sizing: border-box;
+  margin: 3rem auto;
+  display: block;
+  width: 100%;
+  border: 10px solid #654e92;
+  border-radius: 300px;
+  padding: 10px;
+}
+#main-image img {
+  border-radius: 300px;
+  width: 100%;
+}
+#main-image .profession {
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-style: italic;
+}
+
+.rrss-home {
+  list-style: none;
+  margin-top: 3rem;
+}
+.rrss-home li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.rrss-home i.fa-brands {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.follow-me {
+  margin-top: 0;
+}
+.follow-me span {
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #654e92;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100vw;
+}
+
+/*Sobre mi*/
+* {
+  box-sizing: border-box;
+}
+
+.skill-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px 20px 10px 0;
+  color: #fff;
+  background-color: #654e92;
+  border-radius: 10px;
+}
+
+.expert {
+  width: 100%;
+}
+
+.pro {
+  width: 75%;
+}
+
+.medium {
+  width: 50%;
+}
+
+.basic {
+  width: 25%;
+}
+
+/* Servicios */
+.card {
+  background: #654e92;
+  color: #fff;
+}
+
+/* Proyectos */
+.projects article {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.project-img__container {
+  width: 30vw;
+}
+.project-img__container img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 100%;
+}
+
+.project-content__container {
+  background-color: #fff;
+  width: 70vw;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 3rem;
+}
+
+.project-content__container p,
+.project-content__container h2 {
+  color: #555;
+}
+
+/* Contacto */
+.contact form {
+  width: 50%;
+  background: #654e92;
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact form input[type=text],
+.contact form textarea,
+.contact form button {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
