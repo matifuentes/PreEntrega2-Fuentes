@@ -182,5 +182,12 @@ footer {
   margin: 1rem 0;
   border-radius: 15px;
 }
+.contact form button {
+  transition: background-color 0.5s ease-out, background-color 0.5s ease-out;
+}
+.contact form button:hover {
+  background-color: #6c9bcf;
+  color: #fff;
+}
 
 /*# sourceMappingURL=styles.css.map */
